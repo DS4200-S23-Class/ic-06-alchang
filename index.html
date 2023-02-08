@@ -9,14 +9,25 @@
   <body>
     <h1>JavaScript Part 2</h1>
     <svg id="frame" width="500" height="500">
-      <circle cx="300" cy="50" r="40" fill="yellow" />
-      <line />
+      <circle id="circle" cx="400" cy="50" r="40" fill="yellow" />
+      <line
+        id="line"
+        x1="0"
+        y1="450"
+        x2="500"
+        y2="450"
+        stroke="darkblue"
+        stroke-width="20px"
+      />
     </svg>
     <button type="button">Click Me!</button>
 
     <h3>Acknowledgements</h3>
     <ul>
       <li>https://developer.mozilla.org/en-US/docs/Web/SVG/Element/line</li>
+      <li>
+        https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute
+      </li>
     </ul>
   </body>
 
